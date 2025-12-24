@@ -1,11 +1,11 @@
 # this-does-nothing
 **absolutely unhinged dot com**
 
-Welcome 💐
+Welcome 💐,
 You clicked a link.  
 That was your first mistake 🧠
 
-Relax 🏖️
+Relax 🏖️,
 Now it will save your life 🍁
 
 # 🎄 Christmas Chaos 🎁
