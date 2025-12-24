@@ -1,11 +1,12 @@
 # this-does-nothing
-absolutely unhinged dot com
+**absolutely unhinged dot com**
 
-It will save your life 
-
-Welcome.  
+Welcome 💐
 You clicked a link.  
-That was your first mistake.
+That was your first mistake 🧠
+
+Relax 🏖️
+Now it will save your life 🍁
 
 # 🎄 Christmas Chaos 🎁
 
