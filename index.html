@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Absolutely Do Not Use This Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <h1>ABSOLUTELY UNHINGED DOT COM</h1>
+  <p class="subtitle">it will save your life (probably not)</p>
+
+  <button id="startBtn">FIX MY LIFE</button>
+
+  <div id="message"></div>
+  <div id="timer">Time wasted: 0 seconds</div>
+  
+  <audio id="bg-music" loop>
+  <source src="bg-music.mp3" type="audio/mpeg">
+  </audio>
+  
+<p id="roast"></p>
+<div id="progress-container">
+  <div id="progress-bar"></div>
+</div>
+  
+<p id="progress-text">Loading your life…</p>
+<h3>Motivation, just for you</h3>
+<p id="motivation"></p>
+  
+<div id="tasks" style="display: none;">
+  <p>Complete these important tasks:</p>
+
+ <button id="btn1">Start seriously</button>
+ <button id="btn2">I’m ready</button>
+ <button id="btn3">Final decision</button>
+
+  <p id="task-result"></p>
+</div>
+  
+  <div id="input-area">
+  <p>Explain why you deserve success:</p>
+  <input id="life-input" type="text" placeholder="Be honest..." />
+  <br><br>
+  <button id="submit-life">Submit</button>
+  <p id="input-result"></p>
+  </div>
+  
+  <audio id="failSound" src="fail.mp3"></audio>
+  
+  <div class="snow">
+  <span style="left:5%; animation-duration:10s;"></span>
+  <span style="left:15%; animation-duration:12s;"></span>
+  <span style="left:25%; animation-duration:8s;"></span>
+  <span style="left:35%; animation-duration:14s;"></span>
+  <span style="left:45%; animation-duration:9s;"></span>
+  <span style="left:55%; animation-duration:11s;"></span>
+  <span style="left:65%; animation-duration:13s;"></span>
+  <span style="left:75%; animation-duration:7s;"></span>
+  <span style="left:85%; animation-duration:10s;"></span>
+  <span style="left:95%; animation-duration:12s;"></span>
+  </div>
+  
+ <div id="santa-area">
+  <img id="santa" src="santa-happy.png" alt="Santa">
+  <div id="santa-text"></div>
+ </div> 
+
+<div id="santa-wrapper">
+  <img id="santa" />
+  <div id="santa-text"></div>
+</div>
+
+  <!-- SCROLL HINT -->
+<p id="scroll-hint">
+  Scroll a lil bit, there’s something waiting for you ↓
+</p>
+
+<!-- GIFT SECTION -->
+<div id="gift-section">
+
+  <img 
+    id="gift-closed" 
+    src="gift-closed.png" 
+    alt="Closed gift box"
+  >
+
+  <img 
+    id="gift-opened" 
+    src="gift-open.png" 
+    alt="Opened gift box"
+  >
+
+  <button id="open-gift">
+    Open
+  </button>
+
+  <p id="gift-text"></p>
+
+</div>
+
+  <audio id="gift-sound" src="gift-open.mp3"></audio>
+
+  <div id="roastculator">
+  <h2>🎄 Christmas Roast-culator 🎄</h2>
+  <p>Enter a number. Don’t ask why.</p>
+
+  <input type="number" id="userNumber" placeholder="Your lucky number?" />
+  <br><br>
+
+  <button id="roastBtn">Calculate My Future</button>
+
+  <p id="roastResult"></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
