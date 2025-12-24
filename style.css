@@ -1,1 +1,236 @@
+body {
+  background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  font-family: "Comic Sans MS", "Trebuchet MS", Arial, sans-serif; 
+  text-align: center;
+  padding: 40px;
+  line-height: 1.6;
+  min-height: 230vh;
+  overflow-y: auto;
+}
 
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+button {
+  background: #ff6f61;
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #ff3b2e;
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  min-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+#timer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+#roast {
+  margin-top: 20px;
+  font-family: "Patrick Hand", cursive;
+  opacity: 0.8;
+}
+
+#progress-container {
+  width: 80%;
+  height: 12px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  margin: 20px auto;
+  overflow: visible;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #ffffff;
+  transition: width 0.5s ease;
+}
+
+#progress-text {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#motivation {
+  font-size: 18px;
+  opacity: 0.85;
+  margin-top: 30px;
+}
+
+#task {
+  margin-top: 130px;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#life-input {
+  padding: 10px;
+  width: 70%;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+
+#input-result {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.snow span {
+  position: absolute;
+  top: -10px;
+  width: 4px;
+  height: 4px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh);
+  }
+}
+
+#santa-area {
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+}
+
+#santa-wrapper {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#santa {
+  position: relative;
+  bottom: 20px;
+  left: 20px;              
+  width: 190px;          
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+  display: block;
+}
+
+#santa.show {
+  opacity: 1;
+  transform: translateY(0);
+  display: block;
+}
+
+#santa-text {
+  position: relative;
+  left: 170px;
+  bottom: 170px;
+  background: none;
+  box-shadow: none;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  z-index: 999;
+  font-size: 16px;
+  display: block;
+}
+
+/* ---------- SCROLL HINT ---------- */
+#scroll-hint {
+  margin-top: 80px;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* ---------- GIFT SECTION ---------- */
+#gift-section {
+  margin-top: 900px;   /* THIS forces scrolling */
+  text-align: center;
+}
+
+/* Gift images */
+#gift-closed,
+#gift-opened {
+  width: 240px;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Hide opened gift at start */
+#gift-opened {
+  display: none;
+}
+
+/* Open button */
+#open-gift {
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#roastculator {
+  margin-top: 80px;
+  padding: 30px;
+  text-align: center;
+}
+
+#roastculator input {
+  padding: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+#roastculator button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#roastResult {
+  margin-top: 20px;
+  font-size: 18px;
+  }
