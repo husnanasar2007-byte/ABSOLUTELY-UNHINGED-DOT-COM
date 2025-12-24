@@ -1,5 +1,5 @@
-# ABSOLUTELY-UNHINGED-DOT-COM
-# absolutely-do-not-use-this-website
+# this-does-nothing
+absolutely unhinged dot com
 It will save your life 
 
 # 🎄 Christmas Chaos 🎁
