@@ -2,12 +2,10 @@
 **absolutely unhinged dot com**
 
 Welcome 💐
-
 You clicked a link.  
 That was your first mistake 🧠
 
 Relax 🏖️
-
 Now it will save your life 🍁
 
 # 🎄 Christmas Chaos 🎁
